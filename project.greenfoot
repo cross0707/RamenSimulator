@@ -4,9 +4,15 @@ class.MyWorld.superclass=greenfoot.World
 class.kinoko.image=mushroom.png
 class.kinoko.superclass=greenfoot.Actor
 mainWindow.height=628
+<<<<<<< HEAD
 mainWindow.width=851
 mainWindow.x=994
 mainWindow.y=236
+=======
+mainWindow.width=852
+mainWindow.x=73
+mainWindow.y=180
+>>>>>>> a614dae4452401bfe5305467c8edeb1b0eba7318
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8

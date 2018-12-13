@@ -14,10 +14,18 @@ public class kinoko extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
               if(Greenfoot.isKeyDown("left"))// Add your action code here.
         {
             setRotation(180);
             move(4);       
     }
+=======
+        // Add your action code here.
+           if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(270);
+        move(1);
+}
+>>>>>>> a614dae4452401bfe5305467c8edeb1b0eba7318
     }    
 }
