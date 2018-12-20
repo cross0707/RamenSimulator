@@ -18,8 +18,8 @@ public class kinoko extends Actor
         {
             setRotation(90);
             move(4);
-        }// Add your action code here.
-        if(Greenfoot.isKeyDown("left"))// Add your action code here.
+        }
+        if(Greenfoot.isKeyDown( "left" ))
         {
             setRotation(180);
             move(4);       
@@ -29,7 +29,7 @@ public class kinoko extends Actor
             setRotation(270);
             move(4);
         }
-        if(Greenfoot.isKeyDown("right"))// Add your action code here.
+        if(Greenfoot.isKeyDown( "right" ))
         {
             setRotation(360);
             move(4);       
