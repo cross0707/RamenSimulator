@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=67cdaefa0b5509d9818ceac46051b13d0540a98f
+>>>>>>>=9b2a62a0ee51512a627f53a4a4776c090499ff16
 class.MyWorld.image=brick.jpg
 class.MyWorld.superclass=greenfoot.World
 class.gu.superclass=greenfoot.Actor
@@ -15,23 +15,14 @@ dependency1.type=UsesDependency
 mainWindow.height=628
 mainWindow.width=852
 mainWindow.x=112
-<<<<<<< HEAD
 mainWindow.y=278
-=======
-mainWindow.y=250
->>>>>>> 9b2a62a0ee51512a627f53a4a4776c090499ff16
 package.numDependencies=1
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< HEAD
-target1.editor.x=486
-target1.editor.y=152
-=======
 target1.editor.x=753
-target1.editor.y=210
->>>>>>> 9b2a62a0ee51512a627f53a4a4776c090499ff16
+target1.editor.y=238
 target1.height=50
 target1.name=kinoko
 target1.naviview.expanded=false
@@ -70,11 +61,7 @@ target3.y=70
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=277
-<<<<<<< HEAD
-target4.editor.y=191
-=======
 target4.editor.y=219
->>>>>>> 9b2a62a0ee51512a627f53a4a4776c090499ff16
 target4.height=50
 target4.name=MyWorld
 target4.naviview.expanded=true
