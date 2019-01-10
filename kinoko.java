@@ -16,6 +16,7 @@ public class kinoko extends Actor
    private int apexTimer;
    private int get;
    private int out;
+   private int frag =0;
     public kinoko()
     {
     }
@@ -30,8 +31,10 @@ public class kinoko extends Actor
     public void move(){
         int groundLevel = getWorld().getHeight() - getImage().getHeight()/2;
         boolean onGround = (getY() == groundLevel);
+        
         if (!onGround) // in middle of jump
         {
+           
             if (ySpeed == 0 && apexTimer > 0) apexTimer--; // run apex timer
             if (ySpeed == 0 && apexTimer > 0) return; // apex timer still running
             ySpeed++; // adds gravity effect
@@ -41,14 +44,25 @@ public class kinoko extends Actor
                 setLocation(getX(), groundLevel); // set on ground
                 Greenfoot.getKey(); // clears any key pressed during jump
            }
+           if(frag<4){
+           if ("space".equals(Greenfoot.getKey())) // jump key detected
+            {
+                ySpeed = -13; // add jump speed
+                setLocation(getX(), getY()+ySpeed); // leave ground
+                apexTimer = 4;  // set apex timer (adjust value to suit)
+                frag++;
+            }
+        }
         }
         else // on ground
         {
+             frag =0;
             if ("space".equals(Greenfoot.getKey())) // jump key detected
             {
                 ySpeed = -13; // add jump speed
                 setLocation(getX(), getY()+ySpeed); // leave ground
                 apexTimer = 4;  // set apex timer (adjust value to suit)
+                frag++;
             }
         }
         
