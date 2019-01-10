@@ -15,6 +15,7 @@ public class kinoko extends Actor
    private int ySpeed;
    private int apexTimer;
    private int get;
+   private int out;
     public kinoko()
     {
     }
@@ -24,6 +25,7 @@ public class kinoko extends Actor
         move();
         get();
         scrole();
+        out();
     }    
     public void move(){
         int groundLevel = getWorld().getHeight() - getImage().getHeight()/2;
@@ -96,4 +98,19 @@ public class kinoko extends Actor
         
         move(-2);
     }
+        public void out(){
+        Actor actor = getOneObjectAtOffset( 0, 0, enemy.class ); 
+        if( actor != null ){ 
+
+           out++;
+           getWorld().removeObject( actor ); 
+           if(out >= 1) { 
+
+               getWorld().showText("　　ゲームオーバー！", 70, 50); 
+
+               Greenfoot.stop(); 
+
+            }
+    }
+}
     }
