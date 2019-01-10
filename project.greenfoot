@@ -4,13 +4,19 @@
 >>>>>>>=38a369fbf0c0bb101eea5904fe96ad084b797a12
 class.MyWorld.image=brick.jpg
 class.MyWorld.superclass=greenfoot.World
+<<<<<<< HEAD
 class.blackhole.superclass=greenfoot.Actor
+=======
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 class.enemy.superclass=greenfoot.Actor
 class.gu.superclass=greenfoot.Actor
 class.hashi.image=s_illust32.png
 class.hashi.superclass=enemy
+<<<<<<< HEAD
 class.kabe.image=0.jpg
 class.kabe.superclass=blackhole
+=======
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 class.kinoko.image=s_\u4E3C.png
 class.kinoko.superclass=greenfoot.Actor
 class.negi.image=negi.png
@@ -23,6 +29,7 @@ dependency2.to=enemy
 dependency2.type=UsesDependency
 mainWindow.height=628
 mainWindow.width=852
+<<<<<<< HEAD
 mainWindow.x=205
 mainWindow.y=185
 package.numDependencies=2
@@ -33,6 +40,17 @@ target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=823
 target1.editor.y=213
+=======
+mainWindow.x=113
+mainWindow.y=186
+package.numDependencies=2
+package.numTargets=6
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=923
+target1.editor.y=52
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target1.height=50
 target1.name=kinoko
 target1.naviview.expanded=false
@@ -44,15 +62,23 @@ target1.x=160
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=65
 target2.editor.y=24
 target2.height=50
 target2.name=enemy
+=======
+target2.editor.x=521
+target2.editor.y=143
+target2.height=50
+target2.name=negi
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
 target2.width=80
+<<<<<<< HEAD
 target2.x=100
 target2.y=130
 target3.editor.height=700
@@ -62,10 +88,22 @@ target3.editor.y=136
 target3.height=50
 target3.name=negi
 target3.naviview.expanded=true
+=======
+target2.x=160
+target2.y=70
+target3.editor.height=700
+target3.editor.width=900
+target3.editor.x=103
+target3.editor.y=44
+target3.height=50
+target3.name=enemy
+target3.naviview.expanded=false
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
 target3.width=80
+<<<<<<< HEAD
 target3.x=160
 target3.y=70
 target4.editor.height=700
@@ -75,6 +113,17 @@ target4.editor.y=72
 target4.height=50
 target4.name=hashi
 target4.naviview.expanded=false
+=======
+target3.x=100
+target3.y=130
+target4.editor.height=700
+target4.editor.width=900
+target4.editor.x=103
+target4.editor.y=52
+target4.height=50
+target4.name=hashi
+target4.naviview.expanded=true
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -84,7 +133,11 @@ target4.y=130
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=103
+<<<<<<< HEAD
 target5.editor.y=72
+=======
+target5.editor.y=100
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target5.height=50
 target5.name=gu
 target5.naviview.expanded=true
@@ -97,7 +150,11 @@ target5.y=70
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=277
+<<<<<<< HEAD
 target6.editor.y=219
+=======
+target6.editor.y=247
+>>>>>>> 1ab90883b3da048dcab89715647a8ca5c4e42cb7
 target6.height=50
 target6.name=MyWorld
 target6.naviview.expanded=true
