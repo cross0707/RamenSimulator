@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import greenfoot.*;
 
 /**
@@ -99,5 +97,3 @@ public class kinoko extends Actor
         move(-2);
     }
     }
-
->>>>>>> 653deee47668de052f3fef13f811364adbb1f6cd

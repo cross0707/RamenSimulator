@@ -1,11 +1,11 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=9b2a62a0ee51512a627f53a4a4776c090499ff16
+>>>>>>>=653deee47668de052f3fef13f811364adbb1f6cd
 class.MyWorld.image=brick.jpg
 class.MyWorld.superclass=greenfoot.World
 class.gu.superclass=greenfoot.Actor
-class.kinoko.image=\u4E3C.jpg
+class.kinoko.image=s_\u4E3C.png
 class.kinoko.superclass=greenfoot.Actor
 class.negi.image=negi.png
 class.negi.superclass=gu
@@ -15,23 +15,14 @@ dependency1.type=UsesDependency
 mainWindow.height=628
 mainWindow.width=852
 mainWindow.x=112
-<<<<<<< HEAD
 mainWindow.y=334
-=======
-mainWindow.y=306
->>>>>>> 653deee47668de052f3fef13f811364adbb1f6cd
 package.numDependencies=1
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< HEAD
-target1.editor.x=753
-target1.editor.y=238
-=======
 target1.editor.x=823
-target1.editor.y=241
->>>>>>> 653deee47668de052f3fef13f811364adbb1f6cd
+target1.editor.y=157
 target1.height=50
 target1.name=kinoko
 target1.naviview.expanded=false
