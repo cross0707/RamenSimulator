@@ -24,6 +24,10 @@ public class negi extends gu
     public void delete(){
     if(getX() < 1) {
         getWorld().removeObject( this );
+      
+        
+        
+   
     }
 }
 }
