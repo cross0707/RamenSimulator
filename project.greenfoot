@@ -22,12 +22,17 @@ dependency2.from=kinoko
 dependency2.to=enemy
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
+<<<<<<< HEAD
 dependency3.to=negi
+=======
+dependency3.to=kinoko
+>>>>>>> 61e8821eec8c9bb700cabaf73f1b901c2ddc520c
 dependency3.type=UsesDependency
 dependency4.from=MyWorld
 dependency4.to=hashi
 dependency4.type=UsesDependency
 dependency5.from=MyWorld
+<<<<<<< HEAD
 dependency5.to=kinoko
 dependency5.type=UsesDependency
 mainWindow.height=628
@@ -35,13 +40,31 @@ mainWindow.width=852
 mainWindow.x=1002
 mainWindow.y=196
 package.numDependencies=5
+=======
+dependency5.to=negi
+dependency5.type=UsesDependency
+dependency6.from=negi
+dependency6.to=hashi
+dependency6.type=UsesDependency
+dependency7.from=gu
+dependency7.to=hashi
+dependency7.type=UsesDependency
+dependency8.from=gu
+dependency8.to=negi
+dependency8.type=UsesDependency
+mainWindow.height=628
+mainWindow.width=852
+mainWindow.x=113
+mainWindow.y=214
+package.numDependencies=8
+>>>>>>> 61e8821eec8c9bb700cabaf73f1b901c2ddc520c
 package.numTargets=6
 project.charset=UTF-8
 simulation.speed=49
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=923
-target1.editor.y=52
+target1.editor.y=80
 target1.height=50
 target1.name=kinoko
 target1.naviview.expanded=false
@@ -66,8 +89,13 @@ target2.x=100
 target2.y=130
 target3.editor.height=700
 target3.editor.width=900
+<<<<<<< HEAD
 target3.editor.x=521
 target3.editor.y=143
+=======
+target3.editor.x=983
+target3.editor.y=204
+>>>>>>> 61e8821eec8c9bb700cabaf73f1b901c2ddc520c
 target3.height=50
 target3.name=negi
 target3.naviview.expanded=true
@@ -92,8 +120,8 @@ target4.x=10
 target4.y=130
 target5.editor.height=700
 target5.editor.width=900
-target5.editor.x=103
-target5.editor.y=100
+target5.editor.x=98
+target5.editor.y=130
 target5.height=50
 target5.name=gu
 target5.naviview.expanded=true
@@ -105,8 +133,13 @@ target5.x=70
 target5.y=70
 target6.editor.height=700
 target6.editor.width=900
+<<<<<<< HEAD
 target6.editor.x=65
 target6.editor.y=52
+=======
+target6.editor.x=587
+target6.editor.y=206
+>>>>>>> 61e8821eec8c9bb700cabaf73f1b901c2ddc520c
 target6.height=50
 target6.name=MyWorld
 target6.naviview.expanded=true

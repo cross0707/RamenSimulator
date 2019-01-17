@@ -94,7 +94,7 @@ public class kinoko extends Actor
 
            get++;
            getWorld().removeObject( actor ); 
-           if(get >= 10) { 
+           if(get >= 100) { 
 
                getWorld().showText("　　ゲームクリア！", 50, 50); 
 
@@ -102,7 +102,7 @@ public class kinoko extends Actor
 
             }else { 
 
-                getWorld().showText("" +get, 50, 50); 
+                getWorld().showText("" +get, 550, 50); 
 
             } 
     }

@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.params=
 comment0.target=MyWorld()
+<<<<<<< HEAD
+=======
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+>>>>>>> 61e8821eec8c9bb700cabaf73f1b901c2ddc520c
 comment1.params=
 comment1.target=void\ act()
 numComments=2
