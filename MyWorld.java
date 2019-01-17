@@ -38,7 +38,7 @@ public class MyWorld extends World
             addObject( new negi(), x, y ); 
         }
    
-
+    
      }
      public void act(){
        int X1=500,X2=600,Y1=0,Y2=400; 
@@ -50,13 +50,13 @@ public class MyWorld extends World
      
             if(rtime<=0){
              for(int i=0;i<2;i++){ 
-                 
+                 if(i%2==0){
                      x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
                      y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
 
                      addObject( new hashi(), x, y ); 
-                    
+                    }
             x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
             y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
@@ -66,6 +66,9 @@ public class MyWorld extends World
         rtime=30;
     }
     }
+        static int scr ;
+    static public int getscr(){ return scr;}
+    
 }
      
 
