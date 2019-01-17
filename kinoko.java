@@ -97,15 +97,12 @@ public class kinoko extends Actor
            get++;
            getWorld().removeObject( actor ); 
            if(get >= 100) { 
-<<<<<<< HEAD
+
                World clear = new Clear();
                Greenfoot.setWorld( clear );
-=======
 
-               getWorld().showText("　　ゲームクリア！", 50, 50); 
-               String get = "scr="+ MyWorld.getscr();
-               Greenfoot.stop(); 
->>>>>>> a8f62c3c8afeee2a9901e641ec5721a69c7d5373
+
+
 
             }else { 
 
@@ -126,15 +123,12 @@ public class kinoko extends Actor
            out++;
            getWorld().removeObject( actor ); 
            if(out >= 1) { 
-<<<<<<< HEAD
+
                World last = new Last();
                Greenfoot.setWorld( last );
-=======
 
-               getWorld().showText("　　ゲームオーバー！", 70, 50); 
-               String get = "scr="+ MyWorld.getscr();
-               Greenfoot.stop(); 
->>>>>>> a8f62c3c8afeee2a9901e641ec5721a69c7d5373
+
+          
 
             }
     }
