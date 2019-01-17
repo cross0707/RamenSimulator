@@ -41,8 +41,13 @@ dependency8.to=negi
 dependency8.type=UsesDependency
 mainWindow.height=628
 mainWindow.width=852
+<<<<<<< HEAD
 mainWindow.x=770
 mainWindow.y=246
+=======
+mainWindow.x=113
+mainWindow.y=242
+>>>>>>> 139e4c7321dbaae07b4ed27ee5369641f3b9eb0b
 package.numDependencies=8
 package.numTargets=6
 project.charset=UTF-8
@@ -115,7 +120,11 @@ target5.y=70
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=587
+<<<<<<< HEAD
 target6.editor.y=262
+=======
+target6.editor.y=234
+>>>>>>> 139e4c7321dbaae07b4ed27ee5369641f3b9eb0b
 target6.height=50
 target6.name=MyWorld
 target6.naviview.expanded=true
