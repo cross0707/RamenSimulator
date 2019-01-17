@@ -70,7 +70,3 @@ public class MyWorld extends World
     static public int getscr(){ return scr;}
     
 }
-     
-
-
-
