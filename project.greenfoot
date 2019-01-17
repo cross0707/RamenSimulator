@@ -59,12 +59,37 @@ target5.naviview.expanded=true
 class.gu.superclass=greenfoot.Actor
 target6.height=50
 dependency7.to=hashi
+<<<<<<< HEAD
 class.kabe.image=0.jpg
 dependency6.from=negi
 package.numTargets=6
 class.Help.image=haikei-sougen1.jpg
 dependency8.to=negi
 dependency6.type=UsesDependency
+=======
+dependency7.type=UsesDependency
+dependency8.from=gu
+dependency8.to=negi
+dependency8.type=UsesDependency
+dependency9.from=kinoko
+dependency9.to=MyWorld
+dependency9.type=UsesDependency
+mainWindow.height=628
+mainWindow.width=852
+mainWindow.x=113
+mainWindow.y=270
+package.numDependencies=9
+package.numTargets=6
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=923
+target1.editor.y=108
+target1.height=50
+target1.name=kinoko
+target1.naviview.expanded=false
+target1.showInterface=false
+>>>>>>> a8f62c3c8afeee2a9901e641ec5721a69c7d5373
 target1.type=ClassTarget
 class.kinoko.superclass=greenfoot.Actor
 target6.y=10

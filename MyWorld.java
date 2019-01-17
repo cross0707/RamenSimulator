@@ -38,7 +38,7 @@ public class MyWorld extends World
             addObject( new negi(), x, y ); 
         }
    
-
+    
      }
      public void act(){
        int X1=500,X2=600,Y1=0,Y2=400; 
@@ -66,4 +66,7 @@ public class MyWorld extends World
         rtime=30;
     }
     }
+        static int scr ;
+    static public int getscr(){ return scr;}
+    
 }
