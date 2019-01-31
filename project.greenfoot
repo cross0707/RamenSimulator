@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu Jan 17 12:07:50 JST 2019
+#Thu Jan 31 10:11:25 JST 2019
 target10.editor.width=900
 target2.width=80
 target8.name=gu
@@ -90,8 +90,8 @@ dependency1.from=kinoko
 class.hashi.image=s_illust32.png
 target5.editor.y=44
 target5.editor.x=103
-mainWindow.y=177
-mainWindow.x=220
+mainWindow.y=61
+mainWindow.x=764
 target5.showInterface=false
 dependency16.to=Clear
 dependency5.from=MyWorld
@@ -135,6 +135,7 @@ target3.y=190
 target3.x=100
 dependency7.to=hashi
 dependency12.from=Last
+class.Background.superclass=greenfoot.World
 class.Last.image=8432595i.jpeg
 target3.height=50
 dependency8.type=UsesDependency
@@ -167,7 +168,7 @@ target2.naviview.expanded=false
 target9.naviview.expanded=true
 dependency11.type=UsesDependency
 package.numDependencies=17
-target9.editor.y=99
+target9.editor.y=127
 target9.editor.x=675
 dependency13.to=Last
 package.numTargets=10
@@ -201,7 +202,7 @@ target3.width=80
 class.Title.superclass=greenfoot.World
 target4.width=80
 target8.typeParameters=
-target1.editor.y=148
+target1.editor.y=232
 class.negi.image=negi.png
 dependency7.from=gu
 target1.editor.x=725
