@@ -30,5 +30,9 @@ public class Clear extends World
        World title = new Title();
        Greenfoot.setWorld( title );
                                          }
+    if( Greenfoot.isKeyDown( "q" ) ){
+       World hard = new Hard();
+       Greenfoot.setWorld( hard );
+                                       }
     }
 }

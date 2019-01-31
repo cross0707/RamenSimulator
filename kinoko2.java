@@ -1,23 +1,23 @@
 import greenfoot.*;
 
 /**
- * Write a description of class hardkinoko here.
+ * Write a description of class kinoko2 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class hardkinoko extends Actor
+public class kinoko2 extends Actor
 {
     /**
-     * Act - do whatever the hardkinoko wants to do. This method is called whenever
+     * Act - do whatever the kinoko2 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-      private int ySpeed;
+     */         
+   private int ySpeed;
    private int apexTimer;
    private int get;
    private int out;
    private int frag =0;
-    public hardkinoko()
+    public kinoko2()
     {
     }
     
@@ -87,13 +87,13 @@ public class hardkinoko extends Actor
         if(Greenfoot.isKeyDown("right"))// Add your action code here.
         {
             setRotation(360);
-            move(6);       
+            move(14);       
         }
     }
     public void get(){
         for(int i=0;i<30;i++){
             for(int j=0;j<10;j++){
-        Actor actor = getOneObjectAtOffset( i, j, gu.class ); 
+        Actor actor = getOneObjectAtOffset( i, j, negi2.class ); 
         if( actor != null ){ 
 
            get++;
@@ -119,10 +119,10 @@ public class hardkinoko extends Actor
     public void scrole(){
         
         
-        move(-2);
+        move(-10);
     }
         public void out(){
-        Actor actor = getOneObjectAtOffset( 0, 0, enemy.class ); 
+        Actor actor = getOneObjectAtOffset( 0, 0, hashi2.class ); 
         if( actor != null ){ 
 
            out++;
@@ -143,4 +143,4 @@ public class hardkinoko extends Actor
             }
     }
 }
-}
+    }

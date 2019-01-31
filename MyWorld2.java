@@ -1,18 +1,18 @@
 import greenfoot.*;
 
 /**
- * Write a description of class MyWorld here.
+ * Write a description of class MyWorld2 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class MyWorld extends World
+public class MyWorld2 extends World
 {
     private int rtime;
     
          
     private static final String bgImageName = "2443999i.jpeg";
-    private static final double scrollSpeed = 2.0;
+    private static final double scrollSpeed = 10.0;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
  
     private GreenfootImage bgImage, bgBase;
@@ -20,44 +20,37 @@ public class MyWorld extends World
      
     
     /**
-     * Constructor for objects of class MyWorld.
+     * Constructor for objects of class MyWorld2.
      * 
      */
-    public MyWorld()
+    public MyWorld2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-
-
-
-
-      
-
-
         super(620, 439, 1);
         setBackground(bgImageName);
         bgImage = new GreenfootImage(getBackground());
         bgBase = new GreenfootImage(picWidth, getHeight());
         bgBase.drawImage(bgImage, 0, 0);
 
-        addObject( new kinoko(), 75, 410 );
+        addObject( new kinoko2(), 75, 410 );
         
         int X1=150,X2=620,Y1=0,Y2=439; 
-        rtime =30;
+        rtime =10;
         int x,y; 
 
-        for(int i=0;i<20;i++){ 
+        for(int i=0;i<6;i++){ 
             if(i%2==0){
             x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
             y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
 
-            addObject( new hashi(), x, y ); 
+            addObject( new hashi2(), x, y ); 
         }
             x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
             y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
 
-            addObject( new negi(), x, y ); 
+            addObject( new negi2(), x, y ); 
         }
    
     
@@ -77,20 +70,20 @@ public class MyWorld extends World
      
             if(rtime<=0){
              for(int i=0;i<2;i++){ 
-                 if(i%2==0){
+                 
                      x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
                      y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
 
-                     addObject( new hashi(), x, y ); 
-                    }
+                     addObject( new hashi2(), x, y ); 
+                    
             x = X1 + (int)(Math.random()*((X2-X1)+1)); 
 
             y = Y1 + (int)(Math.random()*((Y2-Y1)+1)); 
 
-            addObject( new negi(), x, y ); 
+            addObject( new negi2(), x, y ); 
         }
-        rtime=30;
+        rtime=10;
     }
     }
         static int scr ;

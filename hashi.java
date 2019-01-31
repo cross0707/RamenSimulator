@@ -19,7 +19,7 @@ public class hashi extends enemy
         // Add your action code here.
     }  
     public void scrole(){
-        move(-12);
+        move(-2);
     }
        public void delete(){
     if(getX() < 1) {

@@ -93,7 +93,7 @@ public class kinoko extends Actor
     public void get(){
         for(int i=0;i<30;i++){
             for(int j=0;j<10;j++){
-        Actor actor = getOneObjectAtOffset( i, j, gu.class ); 
+        Actor actor = getOneObjectAtOffset( i, j, negi.class ); 
         if( actor != null ){ 
 
            get++;
@@ -122,7 +122,7 @@ public class kinoko extends Actor
         move(-2);
     }
         public void out(){
-        Actor actor = getOneObjectAtOffset( 0, 0, enemy.class ); 
+        Actor actor = getOneObjectAtOffset( 0, 0, hashi.class ); 
         if( actor != null ){ 
 
            out++;
