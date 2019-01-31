@@ -26,16 +26,16 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< HEAD
-        super(620, 439, 1); 
+
+
       
-=======
+
         super(620, 439, 1);
         setBackground(bgImageName);
         bgImage = new GreenfootImage(getBackground());
         bgBase = new GreenfootImage(picWidth, getHeight());
         bgBase.drawImage(bgImage, 0, 0);
->>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
+
         addObject( new kinoko(), 75, 410 );
         
         int X1=150,X2=620,Y1=0,Y2=439; 
