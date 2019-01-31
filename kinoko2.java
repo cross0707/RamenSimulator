@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class kinoko here.
+ * Write a description of class kinoko2 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class kinoko extends Actor
+public class kinoko2 extends Actor
 {
     /**
-     * Act - do whatever the kinoko wants to do. This method is called whenever
+     * Act - do whatever the kinoko2 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */         
    private int ySpeed;
@@ -17,7 +17,7 @@ public class kinoko extends Actor
    private int get;
    private int out;
    private int frag =0;
-    public kinoko()
+    public kinoko2()
     {
     }
     
@@ -93,7 +93,7 @@ public class kinoko extends Actor
     public void get(){
         for(int i=0;i<30;i++){
             for(int j=0;j<10;j++){
-        Actor actor = getOneObjectAtOffset( i, j, negi.class ); 
+        Actor actor = getOneObjectAtOffset( i, j, negi2.class ); 
         if( actor != null ){ 
 
            get++;
@@ -122,7 +122,7 @@ public class kinoko extends Actor
         move(-2);
     }
         public void out(){
-        Actor actor = getOneObjectAtOffset( 0, 0, hashi.class ); 
+        Actor actor = getOneObjectAtOffset( 0, 0, hashi2.class ); 
         if( actor != null ){ 
 
            out++;
