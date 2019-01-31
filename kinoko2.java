@@ -87,7 +87,7 @@ public class kinoko2 extends Actor
         if(Greenfoot.isKeyDown("right"))// Add your action code here.
         {
             setRotation(360);
-            move(6);       
+            move(14);       
         }
     }
     public void get(){
@@ -119,7 +119,7 @@ public class kinoko2 extends Actor
     public void scrole(){
         
         
-        move(-2);
+        move(-10);
     }
         public void out(){
         Actor actor = getOneObjectAtOffset( 0, 0, hashi2.class ); 

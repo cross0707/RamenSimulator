@@ -19,7 +19,7 @@ public class negi2 extends gu
         // Add your action code here.
     }    
     public void scrole(){
-        move(-2);
+        move(-10);
     }
     public void delete(){
     if(getX() < 1) {
