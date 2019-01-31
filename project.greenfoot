@@ -1,7 +1,11 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=dbff21632029dfb1825a18dc5d4bced57b2e9729
+=======
+>>>>>>>=139e4c7321dbaae07b4ed27ee5369641f3b9eb0b
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 class.Clear.image=pngtree-ramen-png-clipart_1103711.jpg
 class.Clear.superclass=greenfoot.World
 class.Help.image=haikei-sougen1.jpg
@@ -75,17 +79,28 @@ dependency9.from=Title
 dependency9.to=MyWorld
 dependency9.type=UsesDependency
 mainWindow.height=681
+<<<<<<< HEAD
 mainWindow.width=1156
 mainWindow.x=595
 mainWindow.y=281
+=======
+mainWindow.width=1171
+mainWindow.x=749
+mainWindow.y=94
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 package.numDependencies=17
 package.numTargets=10
 project.charset=UTF-8
 simulation.speed=49
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=725
 target1.editor.y=52
+=======
+target1.editor.x=617
+target1.editor.y=34
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target1.height=50
 target1.name=kinoko
 target1.naviview.expanded=false
@@ -97,11 +112,19 @@ target1.x=160
 target1.y=10
 target10.editor.height=700
 target10.editor.width=900
+<<<<<<< HEAD
 target10.editor.x=105
 target10.editor.y=100
 target10.height=50
 target10.name=Clear
 target10.naviview.expanded=true
+=======
+target10.editor.x=748
+target10.editor.y=214
+target10.height=50
+target10.name=Clear
+target10.naviview.expanded=false
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
@@ -111,7 +134,11 @@ target10.y=190
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=387
+<<<<<<< HEAD
 target2.editor.y=108
+=======
+target2.editor.y=80
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target2.height=50
 target2.name=Last
 target2.naviview.expanded=false
@@ -163,7 +190,11 @@ target5.y=130
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=983
+<<<<<<< HEAD
 target6.editor.y=288
+=======
+target6.editor.y=176
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target6.height=50
 target6.name=negi
 target6.naviview.expanded=true
@@ -189,7 +220,11 @@ target7.y=130
 target8.editor.height=700
 target8.editor.width=900
 target8.editor.x=98
+<<<<<<< HEAD
 target8.editor.y=158
+=======
+target8.editor.y=130
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target8.height=50
 target8.name=gu
 target8.naviview.expanded=true
@@ -201,8 +236,13 @@ target8.x=70
 target8.y=70
 target9.editor.height=700
 target9.editor.width=900
+<<<<<<< HEAD
 target9.editor.x=675
 target9.editor.y=99
+=======
+target9.editor.x=256
+target9.editor.y=118
+>>>>>>> 2dddcf4375063a78750833d54144b349e822dd26
 target9.height=50
 target9.name=MyWorld
 target9.naviview.expanded=true
