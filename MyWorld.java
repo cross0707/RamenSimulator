@@ -26,7 +26,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< HEAD
+
 
 
 
@@ -34,8 +34,7 @@ public class MyWorld extends World
       
 
 
-=======
->>>>>>> d7f9c42a5288da93767de8134cf43a0a008c5569
+
         super(620, 439, 1);
         setBackground(bgImageName);
         bgImage = new GreenfootImage(getBackground());
