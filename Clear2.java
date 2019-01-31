@@ -18,7 +18,7 @@ public class Clear2 extends World
        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 600, 1); 
         
-        showText("r:Retry",80,130);
+        showText("r:Restart",80,130);
         
         showText("お前が真の拉麺喰種だったんだな...",400,50);
          Greenfoot.playSound("clear.wav");
