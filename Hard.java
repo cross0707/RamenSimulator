@@ -17,7 +17,7 @@ public class Hard extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1152, 648, 1); 
-        
+        Greenfoot.playSound("roar_zombue.wav");
     }
     public void act()
     {
