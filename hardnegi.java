@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class negi extends gu
+public class hardnegi extends gu
 {
     /**
      * Act - do whatever the negi wants to do. This method is called whenever
@@ -19,7 +19,7 @@ public class negi extends gu
         // Add your action code here.
     }    
     public void scrole(){
-        move(-14);
+        move(-2);
     }
     public void delete(){
     if(getX() < 1) {
