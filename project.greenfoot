@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Greenfoot properties
 #Thu Jan 31 11:01:35 JST 2019
 target10.editor.width=900
@@ -7,6 +8,13 @@ target2.width=80
 target8.name=gu
 target5.naviview.expanded=false
 dependency12.type=UsesDependency
+=======
+#Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=2dddcf4375063a78750833d54144b349e822dd26
+class.Clear.image=pngtree-ramen-png-clipart_1103711.jpg
+>>>>>>> d2b7101158d1f1a5b8cb5ad4ff5254981f079c65
 class.Clear.superclass=greenfoot.World
 target1.type=ClassTarget
 target7.showInterface=false
@@ -52,6 +60,7 @@ target1.name=kinoko
 target10.showInterface=false
 target7.editor.height=700
 dependency8.from=gu
+<<<<<<< HEAD
 dependency15.to=Help
 target3.editor.y=52
 target3.editor.x=105
@@ -61,6 +70,37 @@ target5.name=enemy
 world.lastInstantiated=Title
 mainWindow.width=1156
 class.Title.image=background_002.jpg
+=======
+dependency8.to=negi
+dependency8.type=UsesDependency
+dependency9.from=Title
+dependency9.to=MyWorld
+dependency9.type=UsesDependency
+mainWindow.height=681
+mainWindow.width=1156
+mainWindow.x=749
+mainWindow.y=122
+package.numDependencies=17
+package.numTargets=10
+project.charset=UTF-8
+simulation.speed=49
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=617
+target1.editor.y=62
+target1.height=50
+target1.name=kinoko
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=160
+target1.y=10
+target10.editor.height=700
+target10.editor.width=900
+target10.editor.x=748
+>>>>>>> d2b7101158d1f1a5b8cb5ad4ff5254981f079c65
 target10.editor.y=214
 target9.name=MyWorld
 target10.editor.x=748
@@ -69,8 +109,26 @@ class.Hard.image=suta-to.png
 class.Hard.superclass=greenfoot.World
 target8.naviview.expanded=true
 target10.name=Clear
+<<<<<<< HEAD
 dependency13.type=UsesDependency
 target7.editor.width=900
+=======
+target10.naviview.expanded=false
+target10.showInterface=false
+target10.type=ClassTarget
+target10.typeParameters=
+target10.width=80
+target10.x=190
+target10.y=190
+target2.editor.height=700
+target2.editor.width=900
+target2.editor.x=387
+target2.editor.y=80
+target2.height=50
+target2.name=Last
+target2.naviview.expanded=false
+target2.showInterface=false
+>>>>>>> d2b7101158d1f1a5b8cb5ad4ff5254981f079c65
 target2.type=ClassTarget
 target4.editor.y=80
 dependency1.to=gu
@@ -100,6 +158,7 @@ target5.editor.x=103
 mainWindow.y=150
 mainWindow.x=749
 target5.showInterface=false
+<<<<<<< HEAD
 dependency16.to=Clear
 dependency5.from=MyWorld
 target8.showInterface=false
@@ -109,6 +168,18 @@ class.negi.superclass=gu
 dependency9.from=Title
 class.kinoko.superclass=greenfoot.Actor
 class.Help.image=haikei-sougen1.jpg
+=======
+target5.type=ClassTarget
+target5.typeParameters=
+target5.width=80
+target5.x=100
+target5.y=130
+target6.editor.height=700
+target6.editor.width=900
+target6.editor.x=983
+target6.editor.y=176
+target6.height=50
+>>>>>>> d2b7101158d1f1a5b8cb5ad4ff5254981f079c65
 target6.name=negi
 target6.naviview.expanded=true
 target9.height=50
@@ -137,6 +208,7 @@ target5.x=100
 target7.editor.y=52
 dependency4.type=UsesDependency
 target7.type=ClassTarget
+<<<<<<< HEAD
 target7.editor.x=103
 target10.width=80
 target3.y=190
@@ -169,6 +241,32 @@ target6.showInterface=false
 target3.typeParameters=
 class.Clear.image=pngtree-ramen-png-clipart_1103711.jpg
 dependency3.to=kinoko
+=======
+target7.typeParameters=
+target7.width=80
+target7.x=10
+target7.y=130
+target8.editor.height=700
+target8.editor.width=900
+target8.editor.x=98
+target8.editor.y=130
+target8.height=50
+target8.name=gu
+target8.naviview.expanded=true
+target8.showInterface=false
+target8.type=ClassTarget
+target8.typeParameters=
+target8.width=80
+target8.x=70
+target8.y=70
+target9.editor.height=700
+target9.editor.width=900
+target9.editor.x=256
+target9.editor.y=146
+target9.height=50
+target9.name=MyWorld
+target9.naviview.expanded=true
+>>>>>>> d2b7101158d1f1a5b8cb5ad4ff5254981f079c65
 target9.showInterface=false
 target7.name=hashi
 target2.naviview.expanded=false
