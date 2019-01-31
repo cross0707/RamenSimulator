@@ -51,6 +51,7 @@ public class kinoko extends Actor
                 setLocation(getX(), getY()+ySpeed); // leave ground
                 apexTimer = 4;  // set apex timer (adjust value to suit)
                 frag++;
+                Greenfoot.playSound("jump.wav");
             }
         }
         }
@@ -63,6 +64,7 @@ public class kinoko extends Actor
                 setLocation(getX(), getY()+ySpeed); // leave ground
                 apexTimer = 4;  // set apex timer (adjust value to suit)
                 frag++;
+                Greenfoot.playSound("jump.wav");
             }
         }
         
@@ -96,9 +98,17 @@ public class kinoko extends Actor
 
            get++;
            getWorld().removeObject( actor ); 
+           Greenfoot.playSound("get.wav");
            if(get >= 100) { 
-              World clear = new Clear();
+
+
+               World clear = new Clear();
                Greenfoot.setWorld( clear );
+
+
+
+
+
             }else { 
 
                 getWorld().showText("" +get, 550, 50); 
@@ -117,9 +127,19 @@ public class kinoko extends Actor
 
            out++;
            getWorld().removeObject( actor ); 
+           Greenfoot.playSound("damege.wav");
            if(out >= 1) { 
+
+
                World last = new Last();
                Greenfoot.setWorld( last );
+
+
+          
+
+
+   
+
             }
     }
 }

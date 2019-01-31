@@ -21,7 +21,7 @@ public class Last extends World
         showText("r:Retry",285,300);
         
         showText("Game Over",285,190);
-        
+        Greenfoot.playSound("end.wav");
     }
     
     public void act()

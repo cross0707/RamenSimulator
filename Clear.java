@@ -21,7 +21,7 @@ public class Clear extends World
         showText("r:Retry",285,300);
         
         showText("おめでとう...君はもうラーメン職人だ...ｯ!!",285,190);
-        
+         Greenfoot.playSound("clear.wav");
     }
     
     public void act()
