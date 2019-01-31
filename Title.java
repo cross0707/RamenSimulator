@@ -21,7 +21,7 @@ public class Title extends World
         showText("space:Gameplay",450,300);
         showText(" h:Help",450,420);
         showText("RamenSimulator(らぁめんしみゅれーたー)",450,150);
-        
+         Greenfoot.playSound("op.wav");
     }
     
     public void act()

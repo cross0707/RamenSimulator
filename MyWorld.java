@@ -16,10 +16,11 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        addObject( new kinoko(), 75, 375 );
+        super(620, 439, 1); 
+      
+        addObject( new kinoko(), 75, 410 );
         
-        int X1=150,X2=600,Y1=0,Y2=400; 
+        int X1=150,X2=620,Y1=0,Y2=439; 
         rtime =30;
         int x,y; 
 
@@ -41,7 +42,7 @@ public class MyWorld extends World
     
      }
      public void act(){
-       int X1=500,X2=600,Y1=0,Y2=400; 
+       int X1=520,X2=620,Y1=0,Y2=439; 
 
         int x,y; 
         
