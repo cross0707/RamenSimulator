@@ -102,8 +102,8 @@ public class kinoko2 extends Actor
            if(get >= 100) { 
 
 
-               World clear = new Clear();
-               Greenfoot.setWorld( clear );
+               World clear2 = new Clear2();
+               Greenfoot.setWorld( clear2 );
 
 
 
@@ -131,8 +131,8 @@ public class kinoko2 extends Actor
            if(out >= 1) { 
 
 
-               World last = new Last();
-               Greenfoot.setWorld( last );
+               World last2 = new Last2();
+               Greenfoot.setWorld( last2 );
 
 
           
