@@ -19,6 +19,7 @@ public class Clear extends World
         super(564, 564, 1); 
         
         showText("r:Retry",285,300);
+        showText("q:Hardmode...",285,450);
         
         showText("おめでとう...君はもうラーメン職人だ...ｯ!!",285,190);
          Greenfoot.playSound("clear.wav");
